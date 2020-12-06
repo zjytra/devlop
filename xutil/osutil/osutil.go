@@ -8,8 +8,8 @@
 package osutil
 
 import (
-	"devlop/xutil/strutil"
 	"fmt"
+	"github.com/zjytra/devlop/xutil/strutil"
 	"net"
 	"os"
 	"runtime"

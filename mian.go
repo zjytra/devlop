@@ -1,8 +1,8 @@
 package main
 
 import (
-	"devlop/xcontainer/vector"
 	"fmt"
+	"github.com/zjytra/devlop/xcontainer/vector"
 	"sync"
 	"time"
 )

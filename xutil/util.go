@@ -8,9 +8,9 @@
 package xutil
 
 import (
-	"devlop/xutil/strutil"
 	"errors"
 	"fmt"
+	"github.com/zjytra/devlop/xutil/strutil"
 	"math"
 	"path"
 	"runtime"
