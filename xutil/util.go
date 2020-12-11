@@ -133,6 +133,20 @@ func MinInt(one, two int) int {
 	return two
 }
 
+func MaxInt32(one, two int32) int32 {
+	if one >= two {
+		return one
+	}
+	return two
+}
+
+func MinInt32(one, two int32) int32 {
+	if one <= two {
+		return one
+	}
+	return two
+}
+
 // 将两个16位命令组合在一起
 func MakeUint32(main, sub uint16) uint32 {
 	return uint32(main)<<16 | uint32(sub)
