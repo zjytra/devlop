@@ -220,5 +220,11 @@ func RemoveUint32SliceByElem(slice []uint32, elem uint32) []uint32{
 	}
 	return slice
 }
-
+//获取堆栈
+func GetTraceStackStr(err string) string  {
+	buf := make([]byte, 2048)
+	l := runtime.Stack(buf, false)
+	str := fmt.Sprintf("%v\n%s \n", err, buf[:l])
+	return str
+}
 
