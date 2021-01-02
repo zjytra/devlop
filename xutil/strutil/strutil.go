@@ -12,6 +12,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"unsafe"
 )
 
 func StrToInt8(str string) int8 {
@@ -86,5 +87,17 @@ func StringHasSqlKey(str string) bool {
 // 判断字符串是否有数据  无数据返回true
 func StringIsNil(str string) bool {
 	return len(str) == 0 ||  strings.Compare(str,"") == 0
+}
+
+//将str
+func StrToByteArrByPtr(str string)[]byte{
+	pointer := unsafe.Pointer(&str)
+	return *(*[]byte)(pointer)
+}
+
+//将byte数组转换为string
+func ByteArrToStr(data []byte)string{
+	pointer := unsafe.Pointer(&data)
+	return *(*string)(pointer)
 }
 

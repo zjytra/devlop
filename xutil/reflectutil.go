@@ -9,6 +9,7 @@ package xutil
 
 import (
 	"fmt"
+	"reflect"
 )
 
 // 验证内置类型数组
@@ -34,5 +35,19 @@ func ValidArrIndex(arr interface{}, index int) bool {
 	return true
 }
 
+//这里判断接口是否为nil
+func InterFaceIsNil(i interface{}) bool {
+	vi := reflect.ValueOf(i)
+	switch vi.Kind() {
+	case reflect.Chan,
+		reflect.Func,
+		reflect.Map,
+		reflect.Ptr,
+		reflect.UnsafePointer,
+		reflect.Interface,
+		reflect.Slice:
 
-
+		return vi.IsNil()
+	}
+	return false
+}
