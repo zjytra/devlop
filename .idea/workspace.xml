@@ -12,8 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fcea783-44ae-42cf-9b99-5ced2fe0911b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xutil/reflectutil.go" beforeDir="false" afterPath="$PROJECT_DIR$/xutil/reflectutil.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xutil/strutil/strutil.go" beforeDir="false" afterPath="$PROJECT_DIR$/xutil/strutil/strutil.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xutil/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/xutil/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,10 +142,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607226007291" />
-    <state x="662" y="252" width="596" height="596" key="find.popup" timestamp="1609600546319">
+    <state x="662" y="252" width="596" height="596" key="find.popup" timestamp="1611988764478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609600546319" />
+    <state x="662" y="252" width="596" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611988764478" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
